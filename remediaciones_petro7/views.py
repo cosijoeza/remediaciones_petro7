@@ -5,7 +5,7 @@ import pyodbc
 
 #primer vista prueba
 def test(request):
-    temas = ["Plantillas","Modelos","Vista"]
+    temas = ["Plantillas","Modeloss","Vista"]
     #temas = []
     #Plantilla
     doc_externo = open("/home/cosi/Documentos/proyectosDjango/remediaciones_petro7/remediaciones_petro7/plantillas/test.html")
