@@ -19,5 +19,6 @@ from remediaciones_petro7.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hola/<int:edad>',hola),
+    path('test/',test),
+    path('index/',index),
 ]

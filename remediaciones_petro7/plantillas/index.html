@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>
+            Remedicaciones petro-7
+        </h1>
+        <h3>Ejemplo de liistas con Django</h3>
+        <h3>Ejemplo de ciclos con Django, recorrer lista</h3>
+        <p>
+            <ul>
+            {% if resultados %}
+                {% for i in resultados %}
+                    <li>{{i}}</li>
+                {% endfor %}
+            {% else %}
+                <p>No hay elementos</p>
+            {% endif %}
+            </ul>
+        </p>
+    </body>
+</html>
